@@ -37,6 +37,11 @@
       "type": "component",
       "component": "landing.stat-item",
       "repeatable": true
+    },
+    "Features": {
+      "type": "component",
+      "component": "landing.features",
+      "repeatable": false
     }
   }
 }

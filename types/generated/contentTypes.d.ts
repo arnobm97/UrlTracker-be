@@ -483,6 +483,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     cta_placeholder: Schema.Attribute.String;
     cta_text: Schema.Attribute.String;
+    Features: Schema.Attribute.Component<'landing.features', false>;
     hero_description: Schema.Attribute.Text;
     hero_image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
