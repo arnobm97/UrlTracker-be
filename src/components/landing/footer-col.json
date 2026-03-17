@@ -18,6 +18,9 @@
     },
     "link_3": {
       "type": "string"
+    },
+    "link_4": {
+      "type": "string"
     }
   }
 }

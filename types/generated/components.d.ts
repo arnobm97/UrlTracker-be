@@ -282,6 +282,7 @@ export interface LandingTestimonial extends Struct.ComponentSchema {
   };
   attributes: {
     bg_image: Schema.Attribute.Media<'images'>;
+    bg_shape: Schema.Attribute.Media<'images'>;
     description: Schema.Attribute.String;
     products: Schema.Attribute.Component<'landing.product-item', true>;
     text: Schema.Attribute.String;

@@ -27,6 +27,13 @@
       "type": "component",
       "component": "landing.product-item",
       "repeatable": true
+    },
+    "bg_shape": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
