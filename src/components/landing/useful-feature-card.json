@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_useful_feature_cards",
+  "info": {
+    "name": "useful-feature-card",
+    "icon": "check",
+    "description": "Individual useful feature card with title, description and icon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

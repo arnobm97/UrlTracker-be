@@ -496,10 +496,19 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    ReviewsSection: Schema.Attribute.Component<
+      'landing.reviews-section',
+      false
+    >;
     Stats: Schema.Attribute.Component<'landing.stat-item', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    UsefulFeatures: Schema.Attribute.Component<
+      'landing.useful-features',
+      false
+    >;
+    WhyChooseUs: Schema.Attribute.Component<'landing.why-choose-us', false>;
   };
 }
 

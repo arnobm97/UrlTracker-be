@@ -42,6 +42,21 @@
       "type": "component",
       "component": "landing.features",
       "repeatable": false
+    },
+    "WhyChooseUs": {
+      "type": "component",
+      "component": "landing.why-choose-us",
+      "repeatable": false
+    },
+    "ReviewsSection": {
+      "type": "component",
+      "component": "landing.reviews-section",
+      "repeatable": false
+    },
+    "UsefulFeatures": {
+      "type": "component",
+      "component": "landing.useful-features",
+      "repeatable": false
     }
   }
 }

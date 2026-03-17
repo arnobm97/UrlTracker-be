@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_landing_reviews_section",
+  "info": {
+    "name": "reviews-section",
+    "icon": "star",
+    "description": "Reviews section with top gradient part and review carousel"
+  },
+  "options": {},
+  "attributes": {
+    "topTitle": {
+      "type": "string"
+    },
+    "topDescription": {
+      "type": "text"
+    },
+    "topButtonText": {
+      "type": "string"
+    },
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reviewsTitle": {
+      "type": "string"
+    },
+    "reviewsSubtitle": {
+      "type": "text"
+    },
+    "reviewsBadge": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "component",
+      "component": "landing.review-card",
+      "repeatable": true
+    }
+  }
+}

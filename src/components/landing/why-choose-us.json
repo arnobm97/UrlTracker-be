@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_landing_why_choose_us",
+  "info": {
+    "name": "why-choose-us",
+    "icon": "star",
+    "description": "Why Choose Us section with image, modals, badge, title, description, list items and button"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "listItems": {
+      "type": "component",
+      "component": "landing.list-item",
+      "repeatable": true
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "liveSupport": {
+      "type": "component",
+      "component": "landing.modal",
+      "repeatable": false
+    },
+    "happinessRating": {
+      "type": "component",
+      "component": "landing.modal",
+      "repeatable": false
+    }
+  }
+}

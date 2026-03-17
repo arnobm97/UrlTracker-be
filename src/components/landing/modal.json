@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_modals",
+  "info": {
+    "name": "modal",
+    "icon": "window",
+    "description": "Modal component for Live Support and Happiness Rating"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "additionalInfo": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    }
+  }
+}

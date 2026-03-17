@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_landing_list_items",
+  "info": {
+    "name": "list-item",
+    "icon": "check",
+    "description": "List item for Why Choose Us section"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

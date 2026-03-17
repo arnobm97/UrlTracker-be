@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_landing_review_cards",
+  "info": {
+    "name": "review-card",
+    "icon": "quote",
+    "description": "Individual review card with quote, rating, author and company"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "integer",
+      "default": 5
+    },
+    "author": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

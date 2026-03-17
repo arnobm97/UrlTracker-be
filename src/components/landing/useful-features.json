@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_landing_useful_features",
+  "info": {
+    "name": "useful-features",
+    "icon": "star",
+    "description": "Useful features section with badge, title and feature cards"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "landing.useful-feature-card",
+      "repeatable": true
+    },
+    "bg_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bg_shape": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
