@@ -57,6 +57,31 @@
       "type": "component",
       "component": "landing.useful-features",
       "repeatable": false
+    },
+    "GettingStarted": {
+      "type": "component",
+      "component": "landing.getting-started",
+      "repeatable": false
+    },
+    "Testimonial": {
+      "type": "component",
+      "component": "landing.testimonial",
+      "repeatable": false
+    },
+    "FAQSection": {
+      "type": "component",
+      "component": "landing.faq-section",
+      "repeatable": false
+    },
+    "ContactSection": {
+      "type": "component",
+      "component": "landing.contact-section",
+      "repeatable": false
+    },
+    "Footer": {
+      "type": "component",
+      "component": "landing.footer",
+      "repeatable": false
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_landing_contact_section",
+  "info": {
+    "name": "contact-section",
+    "icon": "envelope",
+    "description": "Contact section with title, text, image, CTA fields and badges"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "bg_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta_placeholder": {
+      "type": "string"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "nocard_text": {
+      "type": "string"
+    },
+    "thirtydays_free_text": {
+      "type": "string"
+    }
+  }
+}

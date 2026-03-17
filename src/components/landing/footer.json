@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_landing_footer",
+  "info": {
+    "name": "footer",
+    "icon": "footer",
+    "description": "Footer section with brand info, social icons, links and mobile store"
+  },
+  "options": {},
+  "attributes": {
+    "brand_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "brand_email_1": {
+      "type": "string"
+    },
+    "brand_email_2": {
+      "type": "string"
+    },
+    "bg_image_left": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bg_image_right": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "social_icons": {
+      "type": "component",
+      "component": "landing.social-icon",
+      "repeatable": true
+    },
+    "footer_cols": {
+      "type": "component",
+      "component": "landing.footer-col",
+      "repeatable": true
+    },
+    "mobilestore_title": {
+      "type": "string"
+    },
+    "playstore_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "applestore_img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

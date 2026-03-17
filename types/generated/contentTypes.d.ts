@@ -478,12 +478,22 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    ContactSection: Schema.Attribute.Component<
+      'landing.contact-section',
+      false
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     cta_placeholder: Schema.Attribute.String;
     cta_text: Schema.Attribute.String;
+    FAQSection: Schema.Attribute.Component<'landing.faq-section', false>;
     Features: Schema.Attribute.Component<'landing.features', false>;
+    Footer: Schema.Attribute.Component<'landing.footer', false>;
+    GettingStarted: Schema.Attribute.Component<
+      'landing.getting-started',
+      false
+    >;
     hero_description: Schema.Attribute.Text;
     hero_image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
@@ -501,6 +511,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
       false
     >;
     Stats: Schema.Attribute.Component<'landing.stat-item', true>;
+    Testimonial: Schema.Attribute.Component<'landing.testimonial', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

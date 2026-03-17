@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_product_item",
+  "info": {
+    "name": "product-item",
+    "icon": "box",
+    "description": "Product item with icon and text"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

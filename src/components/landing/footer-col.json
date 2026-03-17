@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_footer_col",
+  "info": {
+    "name": "footer-col",
+    "icon": "link",
+    "description": "Footer column with title and links"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_1": {
+      "type": "string"
+    },
+    "link_2": {
+      "type": "string"
+    },
+    "link_3": {
+      "type": "string"
+    }
+  }
+}

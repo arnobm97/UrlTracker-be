@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_landing_testimonial",
+  "info": {
+    "name": "testimonial",
+    "icon": "quote",
+    "description": "Testimonial section with title, description, products and background image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "bg_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "products": {
+      "type": "component",
+      "component": "landing.product-item",
+      "repeatable": true
+    }
+  }
+}

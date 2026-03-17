@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_landing_getting_started",
+  "info": {
+    "name": "getting-started",
+    "icon": "rocket",
+    "description": "Getting started section with title, description, and modal cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "bg_shape": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "dot_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_social_icon",
+  "info": {
+    "name": "social-icon",
+    "icon": "share",
+    "description": "Social media icon"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

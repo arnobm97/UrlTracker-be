@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_landing_faq_item",
+  "info": {
+    "name": "faq-item",
+    "icon": "help",
+    "description": "FAQ item with question, answer, and toggle icons"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    },
+    "plusicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "minusicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
