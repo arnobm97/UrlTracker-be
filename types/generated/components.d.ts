@@ -123,6 +123,7 @@ export interface LandingFooterCol extends Struct.ComponentSchema {
     link_1: Schema.Attribute.String;
     link_2: Schema.Attribute.String;
     link_3: Schema.Attribute.String;
+    link_4: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
